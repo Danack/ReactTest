@@ -1,0 +1,20 @@
+{
+  "name": "react_test",
+  "version": "1.0.0",
+  "description": "I don't know what this description is meant to describe.",
+  "main": "index.js",
+  "scripts": {
+    "dev:build": "webpack -d --colors --watch --config ./webpack.clientside.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^2.5.1",
+    "webpack-config": "^7.0.0",
+    "webpack-dev-server": "^1.10.1",
+    "webpack-uglify-js-plugin": "^1.1.9"
+  }
+}

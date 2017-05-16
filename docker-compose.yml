@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  npm:
+    build: docker/yarn
+    volumes:
+      - ./:/var/app
+      - ./node_modules:/var/app/node_modules
+    environment:
+      FOO: bar
