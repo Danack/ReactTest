@@ -4,7 +4,7 @@
   "description": "I don't know what this description is meant to describe.",
   "main": "index.js",
   "scripts": {
-    "dev:build": "webpack -d --colors --watch --config ./webpack.clientside.dev.js"
+    "dev:build": "webpack -d --colors --watch --config ./webpack.config.js"
   },
   "author": "",
   "license": "ISC",

@@ -17,8 +17,9 @@ VOLUME ["/var/app/node_modules"]
 
 WORKDIR /var/app
 
-RUN yarn
+# RUN yarn
 
-# CMD yarn && yarn run dev:build
-CMD tail -f /var/app/readme.MD
+CMD cd /var/app && yarn install --check-files && yarn run dev:build
+# CMD tail -f /var/app/readme.MD
+
 
